@@ -64,15 +64,34 @@ body {
     animation: blinkCaret 0.7s step-end infinite;
   }
 
-/* Footer */
-/* .footer {
-    background-color: #065f46; /* Mesma cor verde escura do "Sobre Mim" */
-/* } */ 
+
 /* Responsividade */
-@media (max-width: 640px) {
+@media (max-width: 740px) {
     .navbar a {
         display: block;
+        justify-content: center;
+        padding: 20px;
         margin-bottom: 10px;
+    }
+
+    .hero{
+        margin-bottom: -5ch;
+    }
+
+    .hero h1{
+        display: flex;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-bottom: -20px;
+        justify-content: center;
+        /* width: 8%; */
+    }
+
+    .hero p{
+        padding-top: -20px;
+        display: flex;
+        font-size: 12px;
+
     }
 
     .container {
